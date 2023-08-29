@@ -1,0 +1,225 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:08:26] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:08:26] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:26:30] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:26:30] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:29:39] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:29:39] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:32:04] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:32:04] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:36:26] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:37:07] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:37:31] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:38:38] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:38:56] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-186-549
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 10:49:35] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-186-549
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:23:21] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:24:29] "[31m[1mPOST /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:24:34] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:26:30] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:26:43] "[31m[1mGET /students HTTP/1.1[0m" 401 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:30:46] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\sec.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:33:27] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:33:27] "[35m[1mPOST /students HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:34:53] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:34:53] "[35m[1mPOST /students HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:36:02] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:36:02] "[35m[1mPOST /students HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:36:32] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:36:32] "POST /students HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_get.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\student_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:47:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:47:56] "POST /students HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:48:22] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:48:22] "GET /students HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\departments_post.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:51:51] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:51:51] "POST /departments HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\departments_get.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:53:20] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:53:20] "GET /departments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:56:03] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:56:03] "POST /courses HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\cource.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:56:04] "GET /courses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:57:08] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:57:08] "POST /courses HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\create_course_script.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\get_courses_script.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:57:37] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 11:57:37] "GET /courses HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 12:01:14] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 12:01:14] "POST /attendance_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\create_attendance_log_script.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 12:01:38] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Aug/2023 12:01:38] "GET /attendance_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\ACER\\PycharmProjects\\python assignment\\get_attendance_logs_script.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-518-808
