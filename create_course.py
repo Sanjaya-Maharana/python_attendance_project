@@ -26,7 +26,7 @@ if login_response.status_code == 200:
     }
 
     create_course_response = requests.post(courses_url, json=new_course_data, headers=headers, cookies=session_cookies)
-    if create_course_response.status_code == 200:
+    if create_course_response.status_code == 201:
         print("Course created successfully.")
     else:
         print("Error creating course:", create_course_response.text)

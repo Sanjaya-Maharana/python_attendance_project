@@ -22,7 +22,7 @@ if login_response.status_code == 200:
     }
 
     create_log_response = requests.post(attendance_logs_url, json=new_log_data, headers=headers, cookies=session_cookies)
-    if create_log_response.status_code == 200:
+    if create_log_response.status_code == 201:
         print("Attendance log created successfully.")
     else:
         print("Error creating attendance log:", create_log_response.text)

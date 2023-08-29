@@ -64,111 +64,148 @@ class AttendanceLog(db.Model):
 @app.route('/departments', methods=['POST'])
 @login_required
 def create_department():
-    data = request.json
-    department_name = data.get('department_name')
-    submitted_by = data.get('username')
+    try:
+        data = request.json
+        department_name = data.get('department_name')
+        submitted_by = data.get('username')
 
-    new_department = Department(department_name=department_name, submitted_by=submitted_by)
-    db.session.add(new_department)
-    db.session.commit()
+        new_department = Department(department_name=department_name, submitted_by=submitted_by)
+        db.session.add(new_department)
+        db.session.commit()
 
-    return jsonify({'message': 'Department created successfully'})
+        return jsonify({'message': 'Department created successfully'}), 201
+    except SQLAlchemyError as e:
+        db.session.rollback()
+        return jsonify({'error': 'Error creating department'}), 500
 
 # Get a list of departments
 @app.route('/departments', methods=['GET'])
 @login_required
 def get_departments():
-    departments = Department.query.all()
-    department_list = [{'id': dept.id, 'department_name': dept.department_name, 'submitted_by': dept.submitted_by,
-                        'updated_at': dept.updated_at} for dept in departments]
+    try:
+        departments = Department.query.all()
+        department_list = [{'id': dept.id, 'department_name': dept.department_name, 'submitted_by': dept.submitted_by,
+                            'updated_at': dept.updated_at} for dept in departments]
 
-    return jsonify(department_list)
+        return jsonify(department_list), 200
+    except SQLAlchemyError as e:
+        return jsonify({'error': 'Error getting departments'}), 500
+
+
+
 
 # Create a new course
 @app.route('/courses', methods=['POST'])
 @login_required
 def create_course():
-    data = request.json
-    course_name = data.get('course_name')
-    department_id = data.get('department_id')
-    semester = data.get('semester')
-    class_name = data.get('class_name')
-    lecture_hours = data.get('lecture_hours')
-    submitted_by = data.get("username")
+    try:
+        data = request.json
+        course_name = data.get('course_name')
+        department_id = data.get('department_id')
+        semester = data.get('semester')
+        class_name = data.get('class_name')
+        lecture_hours = data.get('lecture_hours')
+        submitted_by = data.get("username")
 
-    new_course = Course(course_name=course_name, department_id=department_id, semester=semester,
-                        class_name=class_name, lecture_hours=lecture_hours, submitted_by=submitted_by)
-    db.session.add(new_course)
-    db.session.commit()
+        new_course = Course(course_name=course_name, department_id=department_id, semester=semester,
+                            class_name=class_name, lecture_hours=lecture_hours, submitted_by=submitted_by)
+        db.session.add(new_course)
+        db.session.commit()
 
-    return jsonify({'message': 'Course created successfully'})
+        return jsonify({'message': 'Course created successfully'}), 201
+    except SQLAlchemyError as e:
+        db.session.rollback()
+        return jsonify({'error': 'Error creating course'}), 500
 
 # Get a list of courses
 @app.route('/courses', methods=['GET'])
 @login_required
 def get_courses():
-    courses = Course.query.all()
-    course_list = [{'id': course.id, 'course_name': course.course_name, 'department_id': course.department_id,
-                    'semester': course.semester, 'class_name': course.class_name,
-                    'lecture_hours': course.lecture_hours, 'submitted_by': course.submitted_by,
-                    'updated_at': course.updated_at} for course in courses]
+    try:
+        courses = Course.query.all()
+        course_list = [{'id': course.id, 'course_name': course.course_name, 'department_id': course.department_id,
+                        'semester': course.semester, 'class_name': course.class_name,
+                        'lecture_hours': course.lecture_hours, 'submitted_by': course.submitted_by,
+                        'updated_at': course.updated_at} for course in courses]
 
-    return jsonify(course_list)
+        return jsonify(course_list), 200
+    except SQLAlchemyError as e:
+        return jsonify({'error': 'Error getting courses'}), 500
+
+
 
 # Create a new student
 @app.route('/students', methods=['POST'])
 @login_required
 def create_student():
-    data = request.json
-    full_name = data.get('full_name')
-    department_id = data.get('department_id')
-    class_name = data.get('class_name')
-    submitted_by = data.get('username')
+    try:
+        data = request.json
+        full_name = data.get('full_name')
+        department_id = data.get('department_id')
+        class_name = data.get('class_name')
+        submitted_by = data.get('username')
 
-    new_student = Student(full_name=full_name, department_id=department_id, class_name=class_name,
-                          submitted_by=submitted_by)
-    db.session.add(new_student)
-    db.session.commit()
+        new_student = Student(full_name=full_name, department_id=department_id, class_name=class_name,
+                              submitted_by=submitted_by)
+        db.session.add(new_student)
+        db.session.commit()
 
-    return jsonify({'message': 'Student created successfully'})
+        return jsonify({'message': 'Student created successfully'}), 201
+    except SQLAlchemyError as e:
+        db.session.rollback()
+        return jsonify({'error': 'Error creating student'}), 500
 
 # Get a list of students
 @app.route('/students', methods=['GET'])
 @login_required
 def get_students():
-    students = Student.query.all()
-    student_list = [{'id': student.id, 'full_name': student.full_name, 'department_id': student.department_id,
-                     'class_name': student.class_name, 'submitted_by': student.submitted_by,
-                     'updated_at': student.updated_at} for student in students]
+    try:
+        students = Student.query.all()
+        student_list = [{'id': student.id, 'full_name': student.full_name, 'department_id': student.department_id,
+                         'class_name': student.class_name, 'submitted_by': student.submitted_by,
+                         'updated_at': student.updated_at} for student in students]
 
-    return jsonify(student_list)
+        return jsonify(student_list), 200
+    except SQLAlchemyError as e:
+        return jsonify({'error': 'Error getting students'}), 500
+
+
 
 # Create a new attendance log
 @app.route('/attendance_logs', methods=['POST'])
 @login_required
 def create_attendance_log():
-    data = request.json
-    student_id = data.get('student_id')
-    course_id = data.get('course_id')
-    present = data.get('present')
-    submitted_by = data.get('username')
+    try:
+        data = request.json
+        student_id = data.get('student_id')
+        course_id = data.get('course_id')
+        present = data.get('present')
+        submitted_by = data.get('username')
 
-    new_attendance_log = AttendanceLog(student_id=student_id, course_id=course_id, present=present,
-                                       submitted_by=submitted_by)
-    db.session.add(new_attendance_log)
-    db.session.commit()
+        new_attendance_log = AttendanceLog(student_id=student_id, course_id=course_id, present=present,
+                                           submitted_by=submitted_by)
+        db.session.add(new_attendance_log)
+        db.session.commit()
 
-    return jsonify({'message': 'Attendance log created successfully'})
+        return jsonify({'message': 'Attendance log created successfully'}), 201
+    except SQLAlchemyError as e:
+        db.session.rollback()
+        return jsonify({'error': 'Error creating attendance log'}), 500
 
 # Get a list of attendance logs
 @app.route('/attendance_logs', methods=['GET'])
 @login_required
 def get_attendance_logs():
-    logs = AttendanceLog.query.all()
-    log_list = [{'id': log.id, 'student_id': log.student_id, 'course_id': log.course_id, 'present': log.present,
-                 'submitted_by': log.submitted_by, 'updated_at': log.updated_at} for log in logs]
+    try:
+        logs = AttendanceLog.query.all()
+        log_list = [{'id': log.id, 'student_id': log.student_id, 'course_id': log.course_id, 'present': log.present,
+                     'submitted_by': log.submitted_by, 'updated_at': log.updated_at} for log in logs]
 
-    return jsonify(log_list)
+        return jsonify(log_list), 200
+    except SQLAlchemyError as e:
+        return jsonify({'error': 'Error getting attendance logs'}), 500
+
+
 
 
 @login_manager.user_loader
